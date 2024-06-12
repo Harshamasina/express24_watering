@@ -670,6 +670,40 @@ form{
     height: 100vh;
 }
 
+/* Make Call Icon */
+.makeCall_icon{
+    font-size: 1.75rem;
+    color: #3f9a9b;
+    position: fixed;
+    bottom: 5rem;
+    left: 4rem;
+    z-index: 999;
+    animation: heart 1.5s cubic-bezier(.36,.07,.57,.99) infinite;
+    transition: .5s ease-in-out;
+}
+
+.makeCall_icon:hover{
+    color: #243344;
+}
+
+@keyframes heart {
+	0% {
+		transform: scale(1.5);
+	}
+	20% {
+		transform: scale(2);
+	}
+	30% {
+		transform: scale(1.5);
+	}
+	40% {
+		transform: scale(2);
+	}
+	100% {
+		transform: scale(1.5);
+	}
+}
+
 @media screen and (max-width: 600px){
     .navbar_button{
         display: none;
@@ -742,6 +776,12 @@ form{
         right: 0.75em;
         width: 1.5rem;
         bottom: 2rem;
+    }
+
+    .makeCall_icon{
+        font-size: 1.5rem;
+        /* bottom: 3rem;
+        right: 2rem; */
     }
 }
 

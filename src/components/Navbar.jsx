@@ -63,7 +63,7 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <Link to='/contact' className='navbar_button'>Free Estimation</Link>
+                    <Link to='/contact' className='navbar_button'>Free Consultation</Link>
                     <button className="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
