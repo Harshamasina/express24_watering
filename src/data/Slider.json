@@ -1,0 +1,24 @@
+{
+    "slides": [
+        {
+            "heading": "Welcome to Express 24 Water Damage Cleaning",
+            "subHeading": "Free Consultation? Call us at 800-209-2709",
+            "Desc": "Specializing in Insurance Claims and Free Estimates"
+        },
+        {
+            "heading": "Water Damage Clean Up",
+            "subHeading": "Water Damage Clean Up Services",
+            "Desc": "Specializing in Insurance Claims and Free Estimates"
+        },
+        {
+            "heading": "Flood & Fire Restoration",
+            "subHeading": "Flood & Fire Restoration Services",
+            "Desc": "Specializing in Insurance Claims and Free Estimates"
+        },
+        {
+            "heading": "Mold Remediation",
+            "subHeading": "Mold Remediation Services",
+            "Desc": "Specializing in Insurance Claims and Free Estimates"
+        }
+    ]
+}
