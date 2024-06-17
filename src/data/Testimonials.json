@@ -1,0 +1,19 @@
+{
+    "testimonials": [
+        {
+            "img": "https://express24plumbing.s3.ap-south-1.amazonaws.com/w_client_31.jpg",
+            "name": "Richard Dawson",
+            "text": "Express Water Damage Cleanup exceeded our expectations when it came to mold remediation in our commercial building. Their team was incredibly thorough in identifying and eliminating the mold problem, ensuring a healthy environment for our employees and clients. They were prompt, professional, and communicative throughout the entire process, providing regular updates and addressing all our concerns. Express Water Damage Cleanup's expertise and commitment to quality restoration make them the top choice for anyone seeking mold remediation services."
+        },
+        {
+            "img": "https://express24plumbing.s3.ap-south-1.amazonaws.com/w_client_32.jpg",
+            "name": "Lisa Jordan",
+            "text": "Express Water Damage Cleanup saved the day when our basement flooded due to a burst pipe. Their response time was incredible, and their team acted swiftly to extract the water and thoroughly dry the area. They went above and beyond to ensure that our property was restored to its original condition. Their professionalism, attention to detail, and excellent customer service truly impressed us. We highly recommend Express Water Damage Cleanup for any water damage restoration needs!" 
+        },
+        {
+            "img": "https://express24plumbing.s3.ap-south-1.amazonaws.com/w_client_33.jpg",
+            "name": "Micheal Anderson",
+            "text": "After a fire broke out in our home, Express Water Damage Cleanup came to our rescue for the restoration process. Their knowledgeable team efficiently removed the smoke residue, eliminated the unpleasant odors, and restored our property to a safe and habitable state. Their dedication, expertise, and compassion throughout the entire process made a challenging situation much easier to handle. We are grateful for their exceptional service and would confidently recommend them to anyone in need of fire restoration."
+        }
+    ]
+}
