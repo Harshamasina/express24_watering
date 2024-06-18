@@ -41,7 +41,7 @@ const Navbar = () => {
 
                     <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div className="offcanvas-header">
-                            <img className="offcanvas-title navbar_img" id="offcanvasNavbarLabel" src="https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/logo.png" alt='navbar_logo'></img>
+                            <img className="offcanvas-title navbar_img" id="offcanvasNavbarLabel" src="https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/logo.png" alt='navbar_logo' />
                             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close offcanvas"></button>
                         </div>
 

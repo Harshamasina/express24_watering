@@ -8,7 +8,7 @@ const Testimonials = () => {
     return (
         <div className='testimonial_container'>
             <div className='title'>
-                <h6>Testimonial</h6>
+                <h6>Testimonials</h6>
                 <p>What members are saying</p>
             </div>
 
