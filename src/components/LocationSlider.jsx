@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { locations } from '../data/Locations.json';
 import Modal from 'react-bootstrap/Modal';
 

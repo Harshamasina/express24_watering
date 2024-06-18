@@ -822,9 +822,16 @@ form{
 }
 
 /* Hero Cards */
+.hero_cards{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 3%;
+}
 
 .hero_card {
-    width: 350px;
+    width: 400px;
     height: 500px;
     border-radius: 3px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
@@ -833,20 +840,36 @@ form{
     transition: transform .4s .15s cubic-bezier(.17, .67, .5, 1.03);
 }
 
-.hero_thumb {
+.hero_thumb_1 {
     width: 100%;
     height: 500px;
-    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/new-york-city.png') no-repeat center;
+    background: url('https://express24plumbing.s3.ap-south-1.amazonaws.com/w_flood_20.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 3px 3px 0 0;
+}
+
+.hero_thumb_2{
+    width: 100%;
+    height: 500px;
+    background: url('https://express24plumbing.s3.ap-south-1.amazonaws.com/w_mold_8.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 3px 3px 0 0;
+}
+
+.hero_thumb_3{
+    width: 100%;
+    height: 500px;
+    background: url('https://express24plumbing.s3.ap-south-1.amazonaws.com/w_fire_12.jpg') no-repeat center;
     background-size: cover;
     border-radius: 3px 3px 0 0;
 }
 
 .hero_card_info {
     padding: 14px 24px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
     height: 300px;
     position: absolute;
-    bottom: 0;
+    bottom: -200px; 
     width: 100%;
     transition: transform .4s .15s cubic-bezier(.17, .67, .5, 1.03), opacity .5s .25s;
 }
@@ -854,34 +877,60 @@ form{
 .hero_card_info h3 {
     margin: 10px 0;
     letter-spacing: 3px;
-    color: #152536;
-    font-family: 'Grotesque Black', sans-serif;
-    font-size: 1rem;
+    color: #3f9a9b;
+    font-size: 20px;
     text-transform: uppercase;
     text-shadow: 0 0 0px #354051;
+    z-index: 1;
 }
 
 .hero_card_info p {
+    opacity: 0;
+    transition: opacity .5s .25s;
+    font-size: 16px;
+}
+
+.hero_card_info span{
+    opacity: 0;
     transition: opacity .5s .25s;
 }
 
 .hero_card_info span {
-    display: none;
     display: block;
     margin-top: 10px;
 }
 
 .hero_card:hover .hero_card_info {
-    transform: translateY(-100px); /* Adjusted to match the info section height */
+    transform: translateY(-200px);
+    opacity: 1;
 }
 
-.hero_card:hover p{
+.hero_card:hover p,
+.hero_card:hover span {
     opacity: 1;
-    display: block;
 }
 
-.hero_card_info span{
-    opacity: 1;
+.link_button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 1px;
+    background: #3f9a9b;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1rem;
+}
+
+.link_button:hover {
+    background-color: #337f7c;
+    transform: translateY(-2px);
+}
+
+.link_button:active {
+    background-color: #296765;
+    transform: translateY(0);
 }
 
 /* Home Content */
@@ -918,7 +967,7 @@ form{
 
 .home_content_about{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     width: 80%;
     margin-left: 10%;
     margin-bottom: 3%;
@@ -926,39 +975,19 @@ form{
 }
 
 .about_img img{
-    width: 625px;
+    width: 630px;
+    height: 630px;
     border-radius: 5px;
+    outline: 315px solid rgba(0, 0, 0, 0.2);
+    outline-offset: -315px;
+    cursor: pointer;
+    transition: .4s;
 }
 
-.about_img img::before{
-    position: absolute;
-	top: 0;
-	left: -75%;
-	z-index: 2;
-	display: block;
-	content: '';
-	width: 50%;
-	height: 100%;
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	-webkit-transform: skewX(-25deg);
-	transform: skewX(-25deg);
-}
-
-.about_img img:hover::before{
-    -webkit-animation: shine .75s;
-	animation: shine .75s;
-}
-
-@-webkit-keyframes shine {
-	100% {
-		left: 125%;
-	}
-}
-@keyframes shine {
-	100% {
-		left: 125%;
-	}
+.about_img img:hover{
+    outline: 5px solid #4ECDC4;
+    outline-offset: 10px;
+    transform: scale(1.05);
 }
 
 .about_content h5{
@@ -1047,7 +1076,7 @@ form{
     height: 100px;
     width: 500px;
     margin: 0 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     /* transition: .6 ease; */
     color: #cfe5e6;
 }
@@ -1055,6 +1084,7 @@ form{
 .locationSlider:hover{
     background: #243344;
     color: #F9F8F4;
+    border-radius: 5px;
     transform: scale(1.04);
 }
 

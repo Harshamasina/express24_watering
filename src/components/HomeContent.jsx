@@ -6,6 +6,7 @@ const HomeContent = () => {
             <div className='home_content'>
                 <h4>We are experienced</h4>
                 <span>in dealing with insurance claims</span>
+                
                 <div className='home_content_p'>
                     <p>Understanding the intricacies of insurance claims is vital when dealing with water damage or other property-related incidents. Express Water Damage Cleanup’s extensive experience with insurance claims sets them apart as a valuable partner during the restoration process. Navigating the complexities of insurance policies, documentation, and negotiations can be overwhelming, especially during a time of distress.</p><br />
                     <p>With their expertise, Express Water Damage Cleanup assists clients in effectively communicating with insurance providers, ensuring that all necessary documentation is properly prepared and submitted. Their understanding of the insurance industry enables them to advocate for their clients, maximizing the chances of a successful and fair claim settlement.</p><br />
