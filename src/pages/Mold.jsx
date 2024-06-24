@@ -1,11 +1,18 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import { FaBacteria } from "react-icons/fa";
+import { Helmet } from 'react-helmet';
 
 const Mold = () => {
     const img = "https://express24plumbing.s3.ap-south-1.amazonaws.com/w_mold_6.jpg";
     return (
         <>
+            <Helmet>
+                <title>Mold Remediation | Express 24 Water Damage and Cleanup</title>
+                <meta name="description" content="we offer comprehensive mold remediation services to address one of the most common and potentially hazardous consequences of water damage." />
+                <meta name='keywords' content='About Express 24 Mold Remediation' />
+            </Helmet>
+
             <div>
                 <Parallax bgImage={ img } strength={300} bgImageAlt="parallaximg" blur={2}>
                     <div className='ParallaxContainer1'>

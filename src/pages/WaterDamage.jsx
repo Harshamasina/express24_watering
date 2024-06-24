@@ -1,12 +1,19 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import { MdFlood } from "react-icons/md";
+import { Helmet } from 'react-helmet';
 
 const WaterDamage = () => {
     const img = "https://express24plumbing.s3.ap-south-1.amazonaws.com/w_flood_21.jpg";
 
     return (
         <>
+            <Helmet>
+                <title>Water Damage Cleanup | Express 24 Water Damage and Cleanup</title>
+                <meta name="description" content="Your trusted partner for comprehensive Water Damage Cleanup services in the heart of Missouri." />
+                <meta name='keywords' content='About Express 24 Water Damage and Cleanup' />
+            </Helmet>
+
             <div>
                 <Parallax bgImage={ img } strength={300} bgImageAlt="parallaximg" blur={1}>
                     <div className='ParallaxContainer1'>

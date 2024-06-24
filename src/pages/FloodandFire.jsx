@@ -1,12 +1,19 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import { PiFireTruckFill } from "react-icons/pi";
+import { Helmet } from 'react-helmet';
 
 const FloodAndFire = () => {
     const img = "https://express24plumbing.s3.ap-south-1.amazonaws.com/w_fire_19.jpg";
 
     return (
         <>
+            <Helmet>
+                <title>Flood and Fire Restoration | Express 24 Water Damage and Cleanup</title>
+                <meta name="description" content="Express Water Damage Cleanup is your trusted partner for comprehensive Flood & Fire Restoration services." />
+                <meta name='keywords' content='About Express 24 Flood and Fire Restoration' />
+            </Helmet>
+
             <div>
                 <Parallax bgImage={ img } strength={300} bgImageAlt="parallaximg" blur={1}>
                     <div className='ParallaxContainer1'>

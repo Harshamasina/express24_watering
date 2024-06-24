@@ -59,7 +59,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link className="nav-link mx-lg-2" aria-current="Mold Remediation" aria-label='Read more about Mold Remediation' to="/mold">Mold Remediation</Link>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item contact_us_nav_link">
                                     <Link className="nav-link mx-lg-2" aria-current="Contact Us" aria-label='Contact us for more services' to="/contact">Contact Us</Link>
                                 </li>
                             </ul>

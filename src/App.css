@@ -124,6 +124,10 @@ body{
     opacity: 0.8;
 }
 
+.contact_us_nav_link{
+    display: none;
+}
+
 /* Footer Section */
 
 ul {
@@ -1338,7 +1342,7 @@ form{
         font-size: 10px;
     }
 
-    .contact_link{
+    .contact_us_nav_link{
         display: inline;
     }
 
@@ -1634,6 +1638,10 @@ form{
 }
 
 @media screen and (max-width:768px) and (min-width:601px){
+    .contact_us_nav_link{
+        display: inline;
+    }
+
     .contact_item{
         margin-top: 20px;
         max-width: 100%;
@@ -1674,5 +1682,127 @@ form{
     .contact img{
         width: 60%;
         margin-left: 18%;
+    }
+
+    .hero_text h1{
+        font-size: 70px;
+    }
+    
+    .hero_text h2{
+        font-size: 40px;
+    }
+
+    .hero_text span{
+        font-size: 30px;
+    }
+
+    .hero_dots{
+        margin-left: 0%;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+
+    .hero_cards{
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    .hero_card{
+        width: 90%;
+        height: 500px;
+    }
+
+    .home_content_about{
+        margin-left: 10%;
+        margin-top: 10%;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .home_content h4{
+        font-size: 35px;
+    }
+
+    .home_content span{
+        font-size: 30px;
+        margin-left: 10%;
+    }
+
+    .home_ribbon_container{
+        height: 500px;
+        margin-bottom: 5%;
+    }
+
+    .home_ribbon{
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 15%;
+    }
+
+    .ribbon_link{
+        width: 50%;
+        padding: 10px 20px 10px 40px;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+
+    .cta-text h4 {
+        color: #1A1A19;
+        font-size: 20px;
+    }
+
+    .cta-text span {
+        color: #1A1A19;
+        font-size: 15px;
+    }
+
+    .slider_container .bottom-quote {
+        position: absolute;
+        /* width: 20px; */
+        bottom: -3rem;
+        right: 0.5rem;
+        transform: rotate(180deg);
+    }
+
+    .para_container_1{
+        flex-direction: column;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .para_container_2{
+        flex-direction: column-reverse;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: auto;
+    }
+
+    .para_content{
+        width: 80%;
+        justify-content: center;
+    }
+
+    .para_image{
+        width: 80%;
+        height: 400px;
+    }
+
+    .para_content h3{
+        font-size: 30px;
+    }
+
+    .para_content p{
+        font-size: 25px;
+    }
+
+    .para_content span{
+        font-size: 20px;
+    }
+
+    .para_content button{
+        font-size: 20px;
+        margin-bottom: 3%;
     }
 }

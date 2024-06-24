@@ -4,6 +4,7 @@ import { BiSolidContact } from "react-icons/bi";
 import { GrMapLocation } from "react-icons/gr";
 import { VscCallOutgoing } from "react-icons/vsc";
 import { locations } from '../data/Locations.json';
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
     const img = "https://express24plumbing.s3.ap-south-1.amazonaws.com/w_contact_3.jpg";
@@ -25,6 +26,11 @@ const Contact = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Contact Us | Express 24 Water Damage and Cleanup</title>
+                <meta name='keywords' content='Contact Express 24' />
+            </Helmet>
+
             <div>
                 <Parallax bgImage={ img } strength={300} bgImageAlt="parallaximg" blur={1}>
                     <div className='ParallaxContainer1'>
