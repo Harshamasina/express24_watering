@@ -41,7 +41,7 @@ const Mold = () => {
                 <div className='para_container_2'>
                     <div className='para_content'>
                         <span>Mold can be a silent threat, often hiding behind walls, under carpets, or in other hard-to-reach areas. Our highly trained mold remediation specialists have the knowledge and experience to identify the presence of mold, even in its early stages. We utilize advanced testing methods and industry-leading equipment to accurately assess the extent of the mold problem, allowing us to tailor our remediation strategies accordingly.</span><br />
-                        <a href="tel:+18002092709" aria-label="call us at "><button>Call Us Today!</button></a>
+                        <a href="tel:+18002092709" aria-label="call us at +18002092709"><button>Call Us Today!</button></a>
                     </div>
                     <div className='para_image'>
                         <img src='https://express24plumbing.s3.ap-south-1.amazonaws.com/w_mold_7.jpg' alt='' />

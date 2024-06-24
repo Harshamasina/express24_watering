@@ -10,7 +10,7 @@ const HomeRibbon = () => {
                     <span>We can your home or business back to the way it was…</span>
                 </div>
 
-                <Link className='ribbon_link' to="/contact">Free Consultation</Link>
+                <Link className='ribbon_link' to="/contact" aria-label='Click to get a Free Consultation by filling a form and to know all the locations we serve.'>Free Consultation</Link>
             </div>
         </div>
     )
