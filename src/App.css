@@ -826,6 +826,28 @@ form{
 }
 
 /* Hero Cards */
+.hero_desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.hero_desc h2{
+    font-size: 50px;
+    color: #3f9a9b;
+    font-weight: 600;
+    display: inline;
+    border-bottom: 3px solid #3f9a9b;
+    padding-bottom: 2px;
+}
+
+.hero_desc  span{
+    font-size: 30px;
+    font-weight: 600;
+}
+
 .hero_cards{
     display: flex;
     flex-direction: row;
@@ -1425,6 +1447,14 @@ form{
         margin-left: 0%;
         justify-content: center;
         margin-bottom: 5%;
+    }
+
+    .hero_desc h2{
+        font-size: 30px;
+    }
+
+    .hero_desc  span{
+        font-size: 25px;
     }
 
     .hero_cards{
