@@ -79,6 +79,15 @@ const WaterDamage = () => {
                         <span>Choose Express Water Damage Cleanup as your reliable partner for Water Damage Cleanup in Lake of the Ozarks, Branson, Waynesville, Saint Roberts, Cuba, Sullivan, Rolla and the surrounding areas. With our years of experience and attention to detail, we take pride in delivering exceptional service. Trust our team of experts to efficiently restore your property, allowing you to regain a safe and comfortable living or working space.</span>
                     </div>
                 </div>
+
+                <div className='para_container_2'>
+                    <div className='para_content'>
+                        <span><strong>Radon testing, venting, and mitigation</strong> are essential services for ensuring a safe and healthy environment, especially during water damage cleanup. Radon testing identifies the presence of this hazardous gas. Effective venting systems are crucial for removing radon from indoor spaces, promoting proper air circulation, and preventing harmful buildup. Mitigation strategies, such as sealing cracks in foundations and installing specialized systems, help reduce radon levels to safe standards, protecting occupants' health. By incorporating these services into water damage restoration, homeowners can address hidden risks and create a safer living space.</span>
+                    </div>
+                    <div className='para_image'>
+                        <img src='https://express24plumbing.s3.ap-south-1.amazonaws.com/venting.png' alt='' /> 
+                    </div>
+                </div>
             </div>
         </>
     )
