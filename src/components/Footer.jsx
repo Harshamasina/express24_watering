@@ -70,6 +70,7 @@ const Footer = () => {
                                         <li><Link to="/waterdamage" aria-label='click to go to Water Damage Clean Up'>Water Damage Clean Up</Link></li>
                                         <li><Link to="/floodandfire" aria-label='click to go to Flood & Fire Restoration'>Flood & Fire Restoration</Link></li>
                                         <li><Link to="/mold" aria-label='click to go to Mold Remediation'>Mold Remediation</Link></li>
+                                        <li><Link to="/mold" aria-label='click to go to Radon Mitigation'>Radon Mitigation</Link></li>
                                         <li><Link to="/contact" aria-label='click to go to contact us'>Contact</Link></li>
                                     </ul>
                                 </div>

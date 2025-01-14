@@ -7,6 +7,7 @@ import Mold from '../pages/Mold';
 import WaterDamage from '../pages/WaterDamage';
 import Contact from '../pages/Contact';
 import Error404 from '../pages/Error404';
+import Radon from '../pages/Radon';
 
 const Navbar = () => {
     const location = useLocation();
@@ -59,6 +60,9 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link className="nav-link mx-lg-2" aria-current="Mold Remediation" aria-label='Read more about Mold Remediation' to="/mold">Mold Remediation</Link>
                                 </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link mx-lg-2" aria-current="Radon Mitigation" aria-label='Read more about Radon Mitigation' to="/radon_mitigation">Radon Mitigation</Link>
+                                </li>
                                 <li className="nav-item contact_us_nav_link">
                                     <Link className="nav-link mx-lg-2" aria-current="Contact Us" aria-label='Contact us for more services' to="/contact">Contact Us</Link>
                                 </li>
@@ -81,6 +85,7 @@ const Navbar = () => {
                     <Route path='/waterdamage' element={<WaterDamage />} />
                     <Route path='/floodandfire' element={<FloodAndFire />} />
                     <Route path='/mold' element={<Mold />} />
+                    <Route path='radon_mitigation' element={<Radon />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='*' element={<Error404 />} />
                 </Routes>
