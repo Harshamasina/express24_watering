@@ -8,6 +8,7 @@ import WaterDamage from '../pages/WaterDamage';
 import Contact from '../pages/Contact';
 import Error404 from '../pages/Error404';
 import Radon from '../pages/Radon';
+import plumbing_logo from '../assets/plumbing_logo.png';
 
 const Navbar = () => {
     const location = useLocation();
@@ -37,7 +38,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg shadow-lg fixed-top">
                 <div className="container-fluid">
                     <Link className="navbar-brand me-auto" to="/" aria-label='click to go to home page'>
-                        <img src="https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/logo.png" alt='navbar_logo' className='navbar_img'></img>
+                        <img src={plumbing_logo} alt='navbar_logo' className='navbar_img'></img>
                     </Link>
 
                     <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">

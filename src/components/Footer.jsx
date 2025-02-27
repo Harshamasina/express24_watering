@@ -3,6 +3,7 @@ import { FaGripfire } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import GoToTop from './GoTopAnimation';
+import plumbing_logo from '../assets/plumbing_logo.png';
 
 const Footer = () => {
     return (
@@ -45,7 +46,7 @@ const Footer = () => {
                             <div className="col-xl-4 col-lg-4 mb-50">
                                 <div className="footer-widget">
                                     <div className="footer-logo">
-                                        <Link to="/"><img src="https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/logo.png" className="img-fluid" alt="logo" aria-label='click to go to home page' /></Link>
+                                        <Link to="/"><img src={plumbing_logo} className="img-fluid" alt="logo" aria-label='click to go to home page' /></Link>
                                     </div>
 
                                     <div className="footer-text">
@@ -81,7 +82,7 @@ const Footer = () => {
                                     <h3>Serving Mid Missouri</h3>
                                     <h5>Lake of the Ozark, Branson, Warrensburg, Rolla, Waynesville, Saint Roberts, Cuba, Sullivan, Columbia, Jefferson City and surrounding areas</h5>
                                     <a href='https://www.bbb.org/us/mo/waynesville/profile/fire-water-damage-restoration/express-environmental-cleanup-llc-0734-1000039412' target='_blank' rel='noreferrer' aria-label='click image to go to bbb.org page'>
-                                        <img src="https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/bbg_logo.png" alt='bbb_logo' />
+                                        <img src="https://express24plumbing.s3.ap-south-1.amazonaws.com/img_22_1.webp" alt='bbb_logo' style={{width: "150px"}}/>
                                     </a>
                                 </div>
                             </div>
